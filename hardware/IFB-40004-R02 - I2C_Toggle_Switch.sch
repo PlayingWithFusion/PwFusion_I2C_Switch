@@ -8640,159 +8640,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="1X04_1MM_RA" urn="urn:adsk.eagle:footprint:37714/1" library_version="1">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:footprint:37987/1" library_version="1">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
-<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
-<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
-<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:38096/1" type="box" library_version="1">
-<description>SMD- 4 Pin Right Angle 
-Specifications:
-Pin count:4
-Pin pitch:0.1"
-
-Example device(s):
-CONN_04
-</description>
-<packageinstances>
-<packageinstance name="1X04_1MM_RA"/>
-</packageinstances>
-</package3d>
-<package3d name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:package:38303/1" type="box" library_version="1">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<packageinstances>
-<packageinstance name="1X04_1MM_RA_STRESSRELIEF"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="I2C_STANDARD-1" urn="urn:adsk.eagle:symbol:37986/1" library_version="1">
-<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header&lt;/h3&gt;
-&lt;p&gt;SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;</description>
-<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
-<text x="-4.572" y="0" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
-<text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
-<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
-<pin name="GND" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="VCC" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="SDA" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SCL" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:38395/1" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
-An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
-
-&lt;br&gt;&lt;br&gt;
-
-We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
-<gates>
-<gate name="J1" symbol="I2C_STANDARD-1" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="JS-1MM" package="1X04_1MM_RA">
-<connects>
-<connect gate="J1" pin="GND" pad="1"/>
-<connect gate="J1" pin="SCL" pad="4"/>
-<connect gate="J1" pin="SDA" pad="3"/>
-<connect gate="J1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38096/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
-<connects>
-<connect gate="J1" pin="GND" pad="1"/>
-<connect gate="J1" pin="SCL" pad="4"/>
-<connect gate="J1" pin="SDA" pad="3"/>
-<connect gate="J1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38303/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PlayingWithFusion_Logo" urn="urn:adsk.eagle:library:19654932">
 <packages>
 <package name="LOGO_5MM" urn="urn:adsk.eagle:footprint:19654958/1" library_version="2">
@@ -14033,6 +13880,80 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
+<library name="PlayingWithFusion_JST" urn="urn:adsk.eagle:library:13097115">
+<packages>
+<package name="SM04B-SRSS-TB" urn="urn:adsk.eagle:footprint:13097127/3" library_version="15">
+<smd name="4" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="1" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="MECH2" x="-2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<smd name="MECH1" x="2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<wire x1="-3" y1="4.575" x2="-2.1" y2="4.575" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="4.575" x2="2.1" y2="4.575" width="0.127" layer="21"/>
+<wire x1="2.1" y1="4.575" x2="3" y2="4.575" width="0.127" layer="21"/>
+<wire x1="3" y1="4.575" x2="3" y2="0.325" width="0.127" layer="21"/>
+<wire x1="3" y1="0.325" x2="-3" y2="0.325" width="0.127" layer="21"/>
+<wire x1="-3" y1="0.325" x2="-3" y2="4.575" width="0.127" layer="21"/>
+<wire x1="2.1" y1="4.575" x2="2.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.9" x2="-2.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.9" x2="-2.1" y2="4.575" width="0.127" layer="21"/>
+<text x="-1.85" y="2.1" size="1" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="3.4" size="1" layer="49" font="vector" ratio="12" align="bottom-center">side</text>
+<text x="2" y="0.6" size="1.27" layer="21" font="vector" ratio="12">1</text>
+<circle x="2.5" y="-0.3" radius="0.225" width="0.5" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SM04B-SRSS-TB" urn="urn:adsk.eagle:package:13097145/4" type="model" library_version="15">
+<packageinstances>
+<packageinstance name="SM04B-SRSS-TB"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="QWIIC" urn="urn:adsk.eagle:symbol:42297910/1" library_version="15">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="middle"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="MECH" x="-5.08" y="-5.08" visible="pin" length="point"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle"/>
+<wire x1="-4.064" y1="6.858" x2="-4.064" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="-4.064" y1="-6.604" x2="3.81" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-6.604" x2="3.81" y2="6.858" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="6.858" x2="-4.064" y2="6.858" width="0.4064" layer="94"/>
+<text x="-4.064" y="7.9756" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
+<text x="-1.27" y="0" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
+<text x="-1.27" y="2.54" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
+<text x="-1.27" y="5.08" size="1.778" layer="94" font="vector" align="center-left">GND</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="QWIIC" urn="urn:adsk.eagle:component:42297911/1" prefix="J1" library_version="15">
+<gates>
+<gate name="J1" symbol="QWIIC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SIDE" package="SM04B-SRSS-TB">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="MECH" pad="MECH1 MECH2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13097145/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14054,13 +13975,11 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U2" library="ATTINY841-MMHR" deviceset="ATTINY841-MMHR" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14080,6 +13999,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="U$2" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:16658275/1"/>
 <part name="U$3" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:16658275/1"/>
 <part name="J4" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="CUT_JUMPER_2X" device="" package3d_urn="urn:adsk.eagle:package:21537277/1"/>
+<part name="J5" library="PlayingWithFusion_JST" library_urn="urn:adsk.eagle:library:13097115" deviceset="QWIIC" device="SIDE" package3d_urn="urn:adsk.eagle:package:13097145/4"/>
+<part name="J6" library="PlayingWithFusion_JST" library_urn="urn:adsk.eagle:library:13097115" deviceset="QWIIC" device="SIDE" package3d_urn="urn:adsk.eagle:package:13097145/4"/>
 </parts>
 <sheets>
 <sheet>
@@ -14117,10 +14038,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <attribute name="NAME" x="96.52" y="155.94" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="96.52" y="105.22" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="J1" gate="J1" x="17.78" y="22.86" smashed="yes">
-<attribute name="VALUE" x="12.7" y="17.526" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="12.7" y="30.734" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="GND2" gate="1" x="25.4" y="12.7" smashed="yes">
 <attribute name="VALUE" x="22.86" y="10.16" size="1.778" layer="96"/>
 </instance>
@@ -14138,15 +14055,11 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <attribute name="NAME" x="64.5414" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="69.342" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="J1" x="50.8" y="22.86" smashed="yes">
-<attribute name="VALUE" x="45.72" y="17.526" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="45.72" y="30.734" size="1.778" layer="95" font="vector"/>
+<instance part="GND3" gate="1" x="83.82" y="12.7" smashed="yes">
+<attribute name="VALUE" x="81.28" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="58.42" y="12.7" smashed="yes">
-<attribute name="VALUE" x="55.88" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="VCC" x="73.66" y="38.1" smashed="yes">
-<attribute name="VALUE" x="71.12" y="35.56" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="VCC" x="99.06" y="38.1" smashed="yes">
+<attribute name="VALUE" x="96.52" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="162.56" y="60.96" smashed="yes">
 <attribute name="VALUE" x="160.02" y="58.42" size="1.778" layer="96"/>
@@ -14197,6 +14110,12 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <instance part="J4" gate="J1" x="71.12" y="76.2" smashed="yes">
 <attribute name="NAME" x="73.025" y="78.74" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="J5" gate="J1" x="15.24" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.304" y="17.4244" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+</instance>
+<instance part="J6" gate="J1" x="73.66" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.724" y="17.4244" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14213,14 +14132,16 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="25.4" y1="20.32" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="15.24" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="1"/>
+<wire x1="25.4" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="58.42" y1="20.32" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="1"/>
+<wire x1="81.28" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="20.32" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -14256,16 +14177,16 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="U2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="VCC"/>
-<wire x1="25.4" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="22.86" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="VCC"/>
-<wire x1="58.42" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="73.66" y1="22.86" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="22.86" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="2"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="88.9" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
@@ -14310,16 +14231,16 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <label x="66.04" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="SDA"/>
-<wire x1="25.4" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
 <label x="33.02" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J5" gate="J1" pin="3"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDA"/>
-<wire x1="58.42" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="25.4" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<label x="66.04" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="81.28" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="25.4" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<label x="91.44" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J6" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14334,16 +14255,16 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <label x="132.08" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="SCL"/>
-<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="27.94" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <label x="27.94" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J5" gate="J1" pin="4"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SCL"/>
-<wire x1="58.42" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="27.94" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<label x="60.96" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="81.28" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="27.94" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<label x="86.36" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J6" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
