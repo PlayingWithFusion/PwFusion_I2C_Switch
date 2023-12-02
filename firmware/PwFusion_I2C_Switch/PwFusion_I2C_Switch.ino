@@ -47,8 +47,8 @@
 #include <ezButton.h>
 
 
-uint8_t primaryAddress = 0x07;    // Uncut Address
-uint8_t secondaryAddress = 0x08;  // Cut Address
+uint8_t address0 = 0x13;    // Uncut Address
+uint8_t address1 = 0x14;  // Cut Address
 
 // Define pins
 #define SW 0
@@ -86,9 +86,9 @@ void setup() {
 
 void startI2C() {
   if (digitalRead(ADR_SEL) == LOW) {
-    Wire.begin(primaryAddress);
+    Wire.begin(address0);
   } else {
-    Wire.begin(secondaryAddress);
+    Wire.begin(address1);
   }
 
   Wire.onReceive(receiveEvent);

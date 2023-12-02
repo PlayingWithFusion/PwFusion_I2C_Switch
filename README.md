@@ -4,8 +4,10 @@ Are you looking for a way to take your project to the next level? Playing with F
 
 ## I2C Addresses
 
-ADR Jumper connected: 0x07
-ADR Jumper disconnected: 0x08
+ADR   |   Address
+uncut |   0x13
+cut   |   0x14
+
 
 Each Playing with Fusion I2C interface board comes with 2 available I2C addresses, which can be easily selected by disconnecting a jumper on the printed circuit board. This allows for 2 of the same boards (ex: 2 toggle switch boards) to be used on the same QWIIC chain. If you would like more than 2, see docs/Programming Instructions and flash a modified firmware with additional I2C address options.
 
